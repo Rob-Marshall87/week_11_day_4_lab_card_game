@@ -25,4 +25,8 @@ public class Deck {
             }
         }
     }
+
+    public Card dealCard() {
+        return deck.remove(0);
+    }
 }
